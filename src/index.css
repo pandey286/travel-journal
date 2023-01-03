@@ -11,3 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Navbar */
+
+.nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #fff;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+  background: #F55A5A;
+}
+
+.nav-logo {
+ 
+  margin-top: 8px;
+  margin-right: 6px;
+  padding-top: 7px;
+  width: 31px;
+  height: 25px;
+}
+
+.nav-text {
+  margin-top: 8px;
+  padding-top: 7px;
+
+}
+
+/* cards */
+
+.Card {
+  margin: 36px 120px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-container>.locImg {
+  width: 220px;
+  height: 270px;
+  border-radius: 10px;
+}
+
+.card-location {
+  width: 10px;
+  margin-right: 5px;
+}
+
+span {
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.card-content a {
+  color: gray;
+}
+
+.card-content {
+  position: relative;
+  width: 550px;
+  margin-left: 35px;
+}
+
+.location {
+  margin-top: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.season-visit {
+  margin-bottom: 10px;
+}
