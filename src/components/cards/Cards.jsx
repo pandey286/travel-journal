@@ -9,7 +9,7 @@ const Cards = (props) => {
       <div className="card-content">
         <div className='location'>
           <img src='./images/gpsmarker.png' alt='gps' className='card-location' />
-          <span>{props.location}</span> <a href="#" className='maps'><u>View on Google maps</u></a>
+          <span>{props.location}</span> <a href={`${props.viewmaps}`} className='maps'><u>View on Google maps</u></a>
         </div>
         <div className='title'>
           <h1>{props.title}</h1>

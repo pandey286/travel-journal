@@ -43,7 +43,7 @@ code {
 /* cards */
 
 .Card {
-  margin: 36px 120px;
+  margin: 42px 105px;
   border: none;
   display: flex;
   flex-direction: row;

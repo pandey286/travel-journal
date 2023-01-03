@@ -12,7 +12,8 @@ const CardHolder = () => {
                         location={data.location}
                         desc={data.description}
                         season={data.seasonvisit}
-                        title={data.title} />
+                        title={data.title} 
+                        viewmaps={data.viewmaps}/>
                 )
             }
         </section>
